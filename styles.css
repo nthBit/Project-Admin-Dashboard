@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* top-bar */
+
+.search img,
+.profile img {
+    width: 40px;
+}
+
+.welcome img {
+    width: 60px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px;
+}
+
+/* navbar  */
+
+.navbar {
+    background-color: aqua;
+    height: 70px;
+}
+
+.navbar.title {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.navbar div img {
+    width: 50px;
+}
+
+.navbar.main,
+.navbar.help {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 40px;
+}
+
+/* projects */
+
+.task-logos img {
+    width: 30px;
+}
+
+/* announcements */
+
+
+
+/* trending */
+
+.trends img {
+    width: 30px;
+}
